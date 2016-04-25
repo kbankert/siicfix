@@ -482,6 +482,8 @@ xsmall {
 .sticky-nav {
   width: 100%;
   z-index: 999;
+  position: fixed;
+  top: 0px;
 }
 
 /*********************header option 2***************************/
@@ -2917,4 +2919,8 @@ h3.blue-heading {
   color: #0588BC;
   font-size: 24px;
   font-weight: 300px;
+}
+
+p.justify {
+  text-align: justify;
 }
