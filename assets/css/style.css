@@ -212,16 +212,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-  font-weight: inherit;
+  font-weight: 300px;
 }
 
 h1 {
-  font-size: 36px;
+  letter-spacing: 2px;
+  font-size: 30px;
   line-height: 50px;
   margin-bottom: 30px;
   color: black;
   text-align: center;
 }
+
 
 h2 {
   font-size: 35px;
@@ -913,7 +915,7 @@ MULTI LEVEL DROPDOWN CSS
   color: #0588BC;
   margin-top: 30px;
   font-size: 36px;
-  font-weight: 500;
+  font-weight: 300;
   margin-bottom: 25px;
   text-align: center;
 }
@@ -998,7 +1000,6 @@ MULTI LEVEL DROPDOWN CSS
   text-transform: uppercase;
   color: #333;
   margin-bottom: 20px;
-  letter-spacing: 2px;
 }
 .footer-col h3:first-letter {
   border-bottom: 5px solid green;
@@ -1650,6 +1651,14 @@ h4.quiz-title {
   font-weight: 400;
   letter-spacing: 2px;
   text-transform: uppercase;
+  color: #777;
+}
+
+h4.subtitle {
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #0588BC;
 }
 
 h2.siic-score {
@@ -1660,6 +1669,13 @@ h2.siic-score {
   display: none;
 }
 
+p.description {
+  margin-bottom: 5px;
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #777;
+}
 /*==========================portfolio ==========================*/
 .portfolio-sec {
   border: 1px solid #eee;
@@ -2231,14 +2247,14 @@ h4.heading-mini {
 }
 
 h3.heading-sec {
-  font-weight: 400;
+  font-weight: 300;
   display: block;
   margin-bottom: 40px;
   color: #000;
   font-size: 29px;
   /*text-transform: uppercase;*/
   text-align: center;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
 }
 
 h3.subtitle {
