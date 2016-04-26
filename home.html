@@ -300,7 +300,7 @@
                     <div class="portfolio-sec">
                         <div class="portfolio-desc text-center">
                             <h4 class="quiz-title">Your SIIC Score</h4>
-                            <h2 class="siic-score" id="siicScore">0 - 0 - 0 - 0</h2>
+                            <h2 class="siic-score">0 - 0 - 0 - 0</h2>
                             <p class="description">Stress - Inflammation - Immunity - Candida</p>
                             <a href="home.html#kit" id="kit-button" class="hide-kit-button btn theme-btn-default">Pick your Starter Kit</a>
                         </div>
@@ -344,7 +344,7 @@
                     <div class="col-md-4 col-sm-6 col-md-offset-4 margin-btm-20 portfolio-sec">
                         <div class="portfolio-desc text-center">
                             <h4 class="quiz-title">Your SIIC Score</h4>
-                            <h2 class="siic-score" id="siicScore">0 - 0 - 0 - 0</h2>
+                            <h2 class="siic-score">0 - 0 - 0 - 0</h2>
                             <p class="description">Stress - Inflammation - Immunity - Candida</p>
                         </div>
                     </div>
@@ -577,7 +577,8 @@
                 immunityScore = document.querySelectorAll('input.immunity[type="checkbox"]:checked').length
                 candidaScore = document.querySelectorAll('input.candida[type="checkbox"]:checked').length
                 combinedScore = Math.ceil(stressScore/40 * 100) + " - " + Math.ceil(inflammationScore/44 * 100) + " - " + Math.ceil(immunityScore/47 * 100) + " - " + Math.ceil(candidaScore/30 * 100)
-                document.getElementById('siicScore').innerHTML = combinedScore;
+                document.getElementsByClassName('siic-score')[0].innerHTML = combinedScore;
+                document.getElementsByClassName('siic-score')[1].innerHTML = combinedScore;
                 $('#kit-button').removeClass('hide-kit-button');
             });
         </script>
