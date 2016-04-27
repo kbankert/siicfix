@@ -37,6 +37,7 @@ a {
   -o-transition: all 0.3s ease-in;
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
+  color: green;
 }
 a:hover, a:focus {
   text-decoration: none;
@@ -1285,13 +1286,13 @@ MULTI LEVEL DROPDOWN CSS
 
 .btn-inactive {
   background-color: $fff;
-  color: black;
+  color: #777;
   cursor: auto;
 }
 
 .btn-inactive:hover {
   background-color: $fff;
-  color: black;
+  color: #777;
 }
 
 .btn-dark {
@@ -1312,6 +1313,7 @@ MULTI LEVEL DROPDOWN CSS
   border: 1px solid #eee;
   color: #fff;
 }
+
 .theme-btn-default:hover, .theme-btn-default:focus {
   opacity: 0.8;
 }
@@ -2939,4 +2941,19 @@ h3.blue-heading {
 
 p.justify {
   text-align: justify;
+}
+
+.green-text {
+  color: green;
+}
+
+.blue-text {
+  color: #0588BC !important;
+}
+
+p.fancy {
+  color: #0588BC;
+  font-weight: 300px;
+  font-family: "Papyrus";
+  font-size: 16px;
 }
